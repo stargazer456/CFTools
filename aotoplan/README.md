@@ -13,7 +13,7 @@ make cronserve
 
 1. 创建一个KV命名空间，名称为`CRONBIN`
 2. 创建一个 worker，名称随意, 绑定刚刚创建的KV空间，名称: `CRONBIN`
-3. 复制[此处代码](https://github.com/theowenyoung/blog/blob/main/scripts/cronbin/main.js)到worker中
+3. 复制[此处代码](https://raw.githubusercontent.com/stargazer456/CFTools/refs/heads/main/aotoplan/main.js)到worker中
 4. 修改`APIKEY`，默认为`abc`，点击`保存并部署`
 5. 【可选】给项目绑定自定义域
 6. 到 worker 项目的`设置`——`触发器`——`corn触发器`，添加corn触发器
